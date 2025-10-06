@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MvcWebIdentity.Entities;
 
 namespace MvcWebIdentity.Data
 {
-    public class AppDbContext(DbContextOptions<AppDbContext>options): DbContext(options)
+    public class AppDbContext(DbContextOptions<AppDbContext>options): IdentityDbContext(options)
     {
         public DbSet<Student> Students { get; set; } = null!;
 
