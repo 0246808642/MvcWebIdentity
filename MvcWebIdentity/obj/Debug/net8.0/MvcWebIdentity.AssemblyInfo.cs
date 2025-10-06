@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcWebIdentity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d2210615b03fc361676e80e88c5a0d85837836f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcWebIdentity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcWebIdentity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
